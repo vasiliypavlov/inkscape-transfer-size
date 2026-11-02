@@ -153,14 +153,3 @@ MIT — see [LICENSE](LICENSE).
 ### Лицензия
 
 MIT — см. [LICENSE](LICENSE).
-
----
-
-## Авторы / Authors
-
-Made with ❤️ for the Inkscape community.
-
-## Contributing / Участие
-
-Issues and pull requests are welcome!  
-Issues и pull requests приветствуются!
