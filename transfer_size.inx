@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Transfer Size</name>
+    <id>org.inkscape.custom.transfer_size</id>
+
+    <param name="tab" type="notebook">
+        <page name="options" gui-text="Настройки">
+            <param name="master_color" type="color"
+                   gui-text="Цвет мастер-объекта:">#000000</param>
+            <param name="tolerance" type="float"
+                   min="0" max="255" precision="0"
+                   gui-text="Допуск цвета (0–255):">10</param>
+        </page>
+    </param>
+
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Custom"/>
+        </effects-menu>
+    </effect>
+
+    <script>
+        <command location="inx" interpreter="python">transfer_size.py</command>
+    </script>
+</inkscape-extension>
